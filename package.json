@@ -5,7 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"prepare": "husky",
-		"postinstall": "cp .env.example .env",
+		"postinstall": "cp .env.example .env.local",
 		"dev": "next dev",
 		"build": "next build",
 		"generate": "next build && next export",
