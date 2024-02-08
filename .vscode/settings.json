@@ -1,0 +1,14 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"typescript.preferences.preferTypeOnlyAutoImports": true,
+	// "explorer.sortOrder": "filesFirst",
+	"search.exclude": {
+		"package-lock.json": true
+	},
+	"[json][jsonc][yaml]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.ignorePath": ".gitignore"
+}
